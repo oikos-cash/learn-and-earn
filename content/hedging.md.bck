@@ -1,0 +1,13 @@
+---
+title: "Debt Hedging"
+metaTitle: "How to properly hedge your debt"
+metaDescription: "How to properly hedge your debt"
+---
+### Debt Hedging
+Since Minters see their individual debt go up when the global debt pool increases, one strategy is to hedge against changes in the debt pool by roughly mirroring the global distribution of synths on an individual basis.
+For example, if oBTC is 22% of the pool, oBNB is 17% of the pool, oETH is 6% of the pool, oCAKE is 2% of the pool, oDOT  for 1% of the pool, and the remaining 52% of the synths are oUSD, a Minter might choose to allocate 22% of his Synths in oBTC, 17% in oBNB, 6% in oETH, 2% in oCAKE, 1% in oDOT, and 52% in oUSD. In fact this is the approximate distribution of all the synths in circulation.
+
+![Dashboard](dashboard.png)
+ *Source: [Oikos Stats](https://stats.oikos.cash)*
+
+This is the mirroring strategy that Minters can employ to hedge against major changes in the debt-pool. This strategy requires an individual Minter to rebalance his Synth allocation as the global distribution changes. If oETH goes 5x, the Minter has exposure to this price growth and won't get rekt on his debt. In another scenario where a Minter who has a synth allocation of 100% oBTC, or 100% oUSD, and oETH goes 5x in price while oBTC and oUSD stayed flat, the Minter will be strictly worse off, and will owe more debt than his synths are worth.

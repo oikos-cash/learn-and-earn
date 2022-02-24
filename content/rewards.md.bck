@@ -1,0 +1,11 @@
+---
+title: "Rewards"
+metaTitle: "Minter: Claim Rewards"
+metaDescription: "Minter: Claim Rewards"
+---
+
+By clicking the ‘Claim’ box on the Minter homepage, users can keep track of and claim their rewards, broken down by Synth exchange fees and OKS staking rewards from inflation. It will also display when the next reward period ends and whether a claim is open or closed based on the current collateralization ratio. Users need to manually claim the rewards every week, otherwise, after 2 weeks any unclaimed rewards will be forfeited and distributed to all the other OKS stakers. But before claiming, stakers have to ensure that C-Ratio is above 500%.
+
+![Minter Claim](minterClaim.gif)
+
+Every Saturday, a snapshot of all OKS stakers is taken and they are awarded fees from the Exchange fee pool, as well as OKS rewards. They can both be claimed in a single action. Your current collateralization ratio must be on the target collateralization ratio, or else you will be locked out from claiming your fees and rewards. 
