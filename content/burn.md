@@ -3,7 +3,7 @@ title: "Burning"
 metaTitle: "How and when to burn, fix c-ratio and liquidations"
 metaDescription: "How and when to burn, fix your collateralization ratio"
 ---
-In order to unlock staked Oikos Network Tokens (OKS) users are required to pay back the debt incurred from generating synths. In order to pay back the debt users need to burn oUSD, which they can do from the 'Burn' tab on the [Oikos Minter](https://minter.oikos.cash/w). 
+In order to unlock staked Oikos Network Tokens (OKS) users are required to pay back the debt incurred from generating synths. In order to pay back the debt users need to burn oUSD, which they can do from the 'Burn' tab on the [Oikos Minter](https://minter.oikos.cash/). 
 
 Within the 'Burn' tab, users are presented with the options of 'Burn Max' and 'Fix your Collateralization Ratio'.
 
