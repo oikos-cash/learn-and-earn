@@ -26,9 +26,6 @@ We initially sought out to identify strategies which could help reduce the onboa
 
 This guide will also be the reference on how to interact with future features to be released on the Oikos Network. 
 
-*Join our [Discord](https://discord.gg/VVDu6Er) and [Telegram](https://t.me/oikoscash) communities for more information on the protocol and stay up to date with new features via [Twitter](https://twitter.com/oikos_cash) and [Medium](https://oikoscash.medium.com/).*
-
-
 # Installation
 
 Instructions on how to set up the User Guide locally.
@@ -45,3 +42,13 @@ $ gatsby develop
 ```
 
 Visit `http://localhost:8000/` to view the app.
+
+
+## Community 
+
+Stay up to date with new features and protocol announcements by joining our communities.
+
+- [Discord](https://discord.gg/VVDu6Er)
+- [Telegram](https://t.me/oikoscash)
+- [Twitter](https://twitter.com/oikos_cash)
+- [Medium](https://oikoscash.medium.com/)
