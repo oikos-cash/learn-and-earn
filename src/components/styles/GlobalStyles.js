@@ -391,7 +391,7 @@ export const baseStyles = css`
   .goldCircle {
     width: 8px;
     height: 8px;
-    background-color: #8a8a8a;
+    background-color: #cf9800;
     border-radius: 50%;
     margin: 0 12px;
   }
