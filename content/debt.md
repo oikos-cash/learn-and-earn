@@ -14,10 +14,11 @@ Now what happens to stakers if synth prices don’t move in their desired direct
 | **Step 4** Debt Owned | 62,500 | 62,500 | 125,000 |
 | **Net Profit** | +12,500 | -12,500 | |
 
-As it's explained in the [burn section](burn.md) of our user guide, the platform wants all of it’s synthetic assets to be over-collateralized to 500%. If the user's mint or stake falls below this ratio, they will no longer collect rewards from the weekly OKS inflation or trading fees generated from the protocol. In order to continue collecting rewards again, they’ll need to either burn a portion of your minted tokens (stakers mint oUSD) or add more OKS to their staking wallet.
+As it's explained in the [burn section](burn.md) of this guide, the protocol expects all of it’s synthetic assets to be over-collateralized to 500%. If the user's mint or stake falls below this ratio, they will no longer be able to collect rewards from the weekly OKS inflation or trading fees generated from the protocol. In order to continue collecting rewards, they’ll need to either burn a portion of your minted tokens or add more OKS to their staking wallet.
 
 ### Debt hedging for Stakers
 Since Minters see their individual debt go up when the global debt pool increases, one strategy is to hedge against changes in the debt pool by roughly mirroring the global distribution of synths on an individual basis.
+
 For example, if oBTC is 22% of the pool, oBNB is 17% of the pool, oETH is 6% of the pool, oCAKE is 2% of the pool, oDOT  for 1% of the pool, and the remaining 52% of the synths are oUSD, a Minter might choose to allocate 22% of his Synths in oBTC, 17% in oBNB, 6% in oETH, 2% in oCAKE, 1% in oDOT, and 52% in oUSD. In fact this is the approximate distribution of all the synths in circulation.
 
 ![Dashboard](dashboard.png)
