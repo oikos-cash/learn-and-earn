@@ -3,9 +3,10 @@ import { connectSearchBox } from 'react-instantsearch-dom';
 
 import styled from '@emotion/styled';
 import { css } from '@emotion/react';
-import { Search } from '@styled-icons/fa-solid/Search';
+// import { Search } from '@react-icons/fa/Search';
+import { FaSearch } from '@react-icons/all-files/fa/FaSearch';
 
-const SearchIcon = styled(Search)`
+const SearchIcon = styled(FaSearch)`
   width: 1em;
   pointer-events: none;
   margin-right: 10px;

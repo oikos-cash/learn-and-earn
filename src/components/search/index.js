@@ -12,11 +12,11 @@ import config from '../../../config.js';
 
 import styled from '@emotion/styled';
 import { css } from '@emotion/react';
-import { Search } from '@styled-icons/fa-solid/Search';
+import { FaSearch } from '@react-icons/all-files/fa/FaSearch';
 import Input from './input';
 import * as hitComps from './hitComps';
 
-const SearchIcon = styled(Search)`
+const SearchIcon = styled(FaSearch)`
   width: 1em;
   pointer-events: none;
 `;
