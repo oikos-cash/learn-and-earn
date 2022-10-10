@@ -50,9 +50,9 @@ Check the details of your assets from the Assets tab.
 
 ### Fee Reclamations
 
-After every trade on the Oikos Exchange is confirmed, there is a waiting period before being able to interact with the Synth they have just traded into (burn, transfer, etc.). This period serves as a buffer for oracles to verify prices and confirm if the user owes, or is owed, Synths from the trade.
+After every trade on the Oikos Exchange is confirmed, there is a waiting period before being able to interact with the Synth that has just been traded into (burn, transfer, etc.). This period serves as a buffer for oracles to verify prices and confirm if the user owes, or is owed, Synths from the trade.
 
-If the trade results in an outstanding balance, the next time the user exchanges, transfers or burns that Synth, the `settle` function is called to settle the debt. If they are owed, they receive Synths, otherwise the remainder is paid to the feePool from their Synths the next time they burn, exchange or transfer. 
+If the trade results in an outstanding balance, the next time the user exchanges, transfers or burns that Synth, the `settle` function is called to settle the debt. If they are owed, they receive Synths, otherwise the remainder is paid to the feePool from their Synths the next time they burn, exchange or transfer.
 
 *Note:*
 *The transfer function on a Synth will never settle automatically; `settle` must first be called, or `transferAndSettle`.*
